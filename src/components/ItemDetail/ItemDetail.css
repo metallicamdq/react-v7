@@ -1,0 +1,117 @@
+.box-ItemDetail{
+    background-color: white;
+    width: 80%;
+    height: 800px;
+    margin: 10px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
+}
+
+
+.box-descripcion{
+    width: 100%;
+    padding: 50px;
+    background-color: #222;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-detail{
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    margin-left: 120px;
+}
+
+.titulo-detail{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.descripcion-detail{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.precio-detail{
+    margin-bottom: 35px;
+    font-size: 35px;
+}
+
+.card .contenido{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.card .contenido .zapatillas-colores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+}
+
+.card .contenido .tallas h3,
+.card .contenido .zapatillas-colores h3{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+
+}
+
+/* modificacion del span en diferentes estilos para el talle */
+.card .contenido .tallas span{
+    width: 50px;
+    height: 26px;
+    text-align: center;
+    line-height: 24px;
+    display: inline-block;
+    color: #111;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.card .contenido .tallas span:hover{
+    background-color: #dc7c28;
+    color: white;
+}
+
+/* modificacion del span en diferentes estilos para el color selectivo */
+.card .contenido .zapatillas-colores span{
+    width: 20px;
+    height: 20px;
+    background: #ce2a2a;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.card .contenido .zapatillas-colores span:nth-child(2){
+background-color: #a9aaab;
+}
+
+.card .contenido .zapatillas-colores span:nth-child(3){
+    background-color: #2d85de;
+}
+
+.card .contenido .zapatillas-colores span:nth-child(4){
+    background-color: #000000;
+}

@@ -1,0 +1,78 @@
+
+/* navbar */
+
+.logo{
+    width: 100%;
+    height: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav{
+    width: 100%;
+    background: linear-gradient(to right, #ffffff, rgb(196, 196, 196));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 20;
+}
+
+.nav-menu{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-menu_li{
+    padding: 20px;
+    list-style: none;
+}
+
+.link-a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 12px;
+    transition: all 500ms;
+    border: black;
+}
+
+a{
+    width: 5%;
+}
+
+.link-a:hover{
+    background-color: rgb(175, 173, 173);
+    border-radius: 20px;
+    color: #000000;
+}
+
+.btn-interaz{
+    border: none;
+    background: none;
+    transition: all 300ms;
+    text-decoration: none;
+    color: #000000;
+    justify-content: initial;
+    width: 2%;
+}
+
+.btn-interaz:hover{
+    color: rgb(247, 142, 37);
+}
+
+.fa-cart-shopping{
+    font-size: 25px;
+
+}
+
+.fa-user{
+    font-size: 25px;
+
+}

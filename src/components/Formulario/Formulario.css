@@ -1,0 +1,65 @@
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px;
+  }
+  
+  form h1 {
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(79, 98, 148);
+  }
+  
+  form {
+    background: #757a95;
+    max-width: 600px;
+    margin-top: 150px;
+  }
+  
+  form p {
+    color: #bf1650;
+  }
+  
+  form p::before {
+    display: inline;
+    content: "⚠ ";
+  }
+  
+  form input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  form label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+  form button{
+    background-color: #bf1650;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .App {
+    max-width: 600px;
+    margin: 0 auto;
+  }

@@ -1,0 +1,66 @@
+.box-btnprod-aum{
+    display: flex;
+    justify-content: center;
+}
+
+.box-btnprod{
+    background-color: rgb(216, 215, 215);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-rest{
+    background-color: #e57603;
+    border: none;
+    width: 30%;
+    font-size: 15px;
+    border-radius: 10px 0px 0px 10px;
+    color: #ffffff;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: 800;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.btn-rest:hover{
+    background-color: #ffba3a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-sum{
+    background-color: #e57603;
+    border: none;
+    width: 30%;
+    padding: 5px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 800;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.btn-sum:hover{
+    background-color: #ffba3a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.span-num-prod{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    color: #000;
+}
